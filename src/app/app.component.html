@@ -1,0 +1,9 @@
+<div color="primary"  >
+  <span class="right"><button md-button (click)="refreshFeed()"><span >refresh</span></button></span>
+  <span class="center">BeCompany news</span>
+</div>
+<app-feed-card  *ngFor="let feed of feedarr$ | async" [feed]="feed" ></app-feed-card>
+
+
+
+  

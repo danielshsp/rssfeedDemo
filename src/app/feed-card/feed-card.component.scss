@@ -1,0 +1,14 @@
+.content{
+    width: 230px;
+    height: 100px;
+    animation: move 20s linear infinite;
+}
+
+@keyframes move{
+    0%{
+        transform: translate(0)
+    }
+    100%{
+        transform: translate(2000px)
+    }
+}
